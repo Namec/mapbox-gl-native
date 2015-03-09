@@ -48,11 +48,6 @@
           'libraries': [ '<@(libraries)', '<@(ldflags)' ],
         }]
       ],
-
-      'copies': [{
-        'files': [ '../styles/styles' ],
-        'destination': '<(PRODUCT_DIR)'
-      }],
     },
   ],
 }
